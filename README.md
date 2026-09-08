@@ -42,10 +42,6 @@ npm test
 
 The next Binance Agent OS integration is an authenticated adapter for exchange filters, account state, open orders, order submission, cancellation and reconciliation. The execution engine is deliberately independent of that adapter so it can be tested entirely in paper mode first.
 
-## Vercel
-
-The repository includes Vercel serverless endpoints and routing. Import the repository with the **Other** framework preset and keep the root directory as `./`. No environment variables are required for the paper demo.
-
 ## Safety
 
 This is a hackathon prototype, not financial advice or production trading software. The current application is paper-only. Digital assets are volatile and all production execution requires a dedicated account, minimum permissions, explicit user limits and reconciliation of every exchange response.
