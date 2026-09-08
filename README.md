@@ -6,7 +6,7 @@ FillPilot is an execution-lifecycle agent for Binance Spot. It does not invent a
 
 ## Try the demo
 
-**Live demo:** <https://fillpilot-smoky.vercel.app/>
+**Live demo:** <https://fillpilot-lupus.vercel.app/>
 
 Open the live demo first—no installation is required. It runs the same paper-execution workflow used in the submission and does not place real orders.
 
