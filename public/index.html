@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="FillPilot gets Binance orders filled under your time, price and slippage constraints." />
+    <title>FillPilot — Finish the trade</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="glow glow-a"></div><div class="glow glow-b"></div>
+    <header class="topbar"><a class="brand" href="#"><span class="brand-mark">↗</span>FillPilot</a><div class="status"><span class="pulse"></span>Execution controller online <span class="paper">PAPER MODE</span></div></header>
+    <main>
+      <section class="hero"><div class="eyebrow">THE LAST MILE OF AGENTIC TRADING</div><h1>Placing an order is easy.<br /><em>Getting it filled well is the product.</em></h1><p>Give FillPilot an amount, a deadline and a slippage budget. It posts, watches, reprices, cancels and reconciles the complete Binance Spot order lifecycle.</p><div class="proof"><span><b>01</b> mandate</span><span><b>02</b> execution plan</span><span><b>03</b> fill receipt</span></div></section>
+      <section class="console">
+        <aside class="sidebar"><div class="section-top"><span>Execution recipes</span><span>01</span></div><div id="scenario-list" class="scenario-list"></div><div class="mandate"><div class="mandate-top"><span>LIVE MANDATE</span><span class="lock">⌁</span></div><div class="mandate-grid"><div><small>MAX SLIPPAGE</small><strong id="mandate-slip">—</strong></div><div><small>DEADLINE</small><strong id="mandate-time">—</strong></div><div><small>COMPLETION</small><strong id="mandate-fill">—</strong></div></div></div></aside>
+        <section class="workspace"><div class="workspace-top"><div><div class="section-top"><span>Order cockpit</span><span>02</span></div><div id="intent" class="intent">Select an execution recipe to begin.</div></div><div id="market-badge" class="market-badge">Awaiting mandate</div></div><div id="empty" class="empty"><div class="radar"><i></i><i></i><span>↗</span></div><h2>What should FillPilot execute?</h2><p>Choose a recipe. The agent will turn it into a staged execution plan.</p></div><div id="result" class="result hidden"><div class="stats"><div><small>PLAN</small><strong id="plan-label">—</strong></div><div><small>PRICE CEILING</small><strong id="price-limit">—</strong></div><div><small>TARGET FILLED</small><strong id="target">—</strong></div><div><small>STATUS</small><strong id="status">—</strong></div></div><div class="progress-block"><div class="progress-copy"><span>Completion</span><strong><span id="filled">0</span>% <i>/</i> <span id="target-inline">80</span>% target</strong></div><div class="progress"><span id="progress"></span><i id="target-line"></i></div></div><div class="timeline-heading"><span>Execution timeline</span><span id="source">—</span></div><div id="timeline" class="timeline"></div><div id="receipt" class="receipt hidden"></div></div></section>
+      </section>
+    </main>
+    <footer><span>FillPilot · an execution agent for Binance Agent OS</span><span>Paper execution only · no funds move</span></footer>
+    <script type="module" src="/app.js"></script>
+  </body>
+</html>
