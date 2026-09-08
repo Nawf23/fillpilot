@@ -6,11 +6,17 @@ FillPilot is an execution-lifecycle agent for Binance Spot. It does not invent a
 
 ## Try the demo
 
+**Live demo:** <https://fillpilot-smoky.vercel.app/>
+
+Open the live demo first—no installation is required. It runs the same paper-execution workflow used in the submission and does not place real orders.
+
+### Run locally (optional)
+
 ```bash
 npm start
 ```
 
-Open <http://localhost:4174>. The demo uses live Binance public market data when available and a labelled paper-execution fixture for reproducible order-lifecycle scenarios. It never places real orders.
+Then open <http://localhost:4174>. The demo uses live Binance public market data when available and a labelled paper-execution fixture for reproducible order-lifecycle scenarios. It never places real orders.
 
 Choose a recipe:
 
